@@ -5,12 +5,22 @@
 
 **Code like a dev, Direct like a pro.**
 
-!Release [<sup>1</sup>](https://img.shields.io/github/v/release/Banansky-Studio/CatchBan?color=yellow&label=Latest&style=flat-square) !Platform [<sup>2</sup>](https://img.shields.io/badge/Platform-macOS-black?logo=apple&style=flat-square) !Community [<sup>3</sup>](https://img.shields.io/badge/Community-Banana%20Pie-yellow?style=flat-square)
+<div align="center">
+  <a href="https://github.com/Banansky-Studio/CatchBan/releases">
+    <img src="https://img.shields.io/github/v/release/Banansky-Studio/CatchBan?color=yellow&label=Latest&style=flat-square" alt="Release">
+  </a>
+  <a href="https://github.com/Banansky-Studio/CatchBan/releases">
+    <img src="https://img.shields.io/badge/Platform-macOS-black?logo=apple&style=flat-square" alt="Platform">
+  </a>
+  <a href="https://www.bilibili.com/video/BV1YJiLBHEMG">
+    <img src="https://img.shields.io/badge/Community-Banana%20Pie-yellow?style=flat-square" alt="Community">
+  </a>
+</div>
+
 
 A native, minimalist video downloader built with **SwiftUI** by a film director.
 Powered by the new **Chameleon Engine** (V1.4).
 
-<!-- 👇 核心链接 (已更新) -->
 <div align="center">
   📥 <a href="https://github.com/Banansky-Studio/CatchBan/releases/latest">Download V1.4 Beta</a> • 
   📺 <a href="https://space.bilibili.com/106338395">Watch Demo</a> • 
