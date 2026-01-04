@@ -23,7 +23,7 @@ Powered by the new **Chameleon Engine** (V1.4).
 
 <div align="center">
   📥 <a href="https://github.com/Banansky-Studio/CatchBan/releases/latest">Download V1.4 Beta</a> • 
-  📺 <a href="https://space.bilibili.com/106338395">Watch Demo</a> • 
+  📺 <a href="https://www.bilibili.com/video/BV1YJiLBHEMG/">Watch Demo</a> • 
   💬 QQ Group: 879059380
 </div>
 
