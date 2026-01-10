@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/d42492a2-2e2c-4cd2-98fb-57f89a7324b5" width="120" alt="CatchBan Logo">
 
-  <h1>🍌 CatchBan</h1>
+  <h1>CatchBan</h1>
   <p><strong>Code like a dev, Direct like a pro.</strong></p>
   <p>
     A native macOS video downloader built with SwiftUI & yt-dlp.<br>
@@ -83,9 +83,11 @@ Since this app is not notarized by Apple yet, you might see a warning: *"CatchBa
 ---
 
 ## 💬 Community / 联系我们
-
-- **GitHub Issues**: Report a Bug [<sup>1</sup>](https://github.com/Banansky-Studio/CatchBan/issues)
+- **GitHub Issues**: Report a Bug <sup>1</sup> [<sup>1</sup>](https://github.com/Banansky-Studio/CatchBan/issues)
 - **QQ Group (香蕉派)**: `879059380`
+- **Bilibili**: Banansky香蕉斯基 [<sup>2</sup>](https://space.bilibili.com/106338395) 
+- **YouTube**: @BananskyStudio [<sup>3</sup>](https://www.youtube.com/@BananskyStudio) 
+- **X (Twitter)**: @BananskyStudio [<sup>4</sup>](https://x.com/BananskyStudio)
 - **Email**: Check my GitHub profile.
 
 ---
