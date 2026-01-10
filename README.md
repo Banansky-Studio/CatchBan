@@ -5,87 +5,70 @@
 
 **Code like a dev, Direct like a pro.**
 
+<p>
+    A native macOS video downloader built with SwiftUI & yt-dlp.<br>
+    原生、极简、强大的 macOS 视频下载工具 (变色龙引擎版)
+  </p>
+  <p>
+    <a href="https://github.com/Banansky-Studio/CatchBan/releases">
+      <img src="https://img.shields.io/github/v/release/Banansky-Studio/CatchBan?color=yellow&label=Latest%20Version&logo=apple" alt="Latest Version">
+    </a>
+    <a href="https://github.com/Banansky-Studio/CatchBan/releases">
+      <img src="https://img.shields.io/github/downloads/Banansky-Studio/CatchBan/total.svg?color=orange&label=Downloads" alt="Total Downloads">
+    </a>
+    <img src="https://img.shields.io/badge/macOS-12.0%2B-blue?logo=apple" alt="Platform">
+  </p>
+</div>
+---
+## 📥 Download / 下载
+> **Click the button below to download the latest version (.dmg)**
+> **点击下方按钮下载最新版**
 <div align="center">
-  <a href="https://github.com/Banansky-Studio/CatchBan/releases">
-    <img src="https://img.shields.io/github/v/release/Banansky-Studio/CatchBan?color=yellow&label=Latest&style=flat-square" alt="Release">
-  </a>
-  <a href="https://github.com/Banansky-Studio/CatchBan/releases">
-    <img src="https://img.shields.io/badge/Platform-macOS-black?logo=apple&style=flat-square" alt="Platform">
-  </a>
-  <a href="https://www.bilibili.com/video/BV1YJiLBHEMG">
-    <img src="https://img.shields.io/badge/Community-Banana%20Pie-yellow?style=flat-square" alt="Community">
+  <a href="https://github.com/Banansky-Studio/CatchBan/releases/latest/download/CatchBan.dmg">
+    <img src="https://img.shields.io/badge/Download_CatchBan.dmg-Click_Here_🍌-2ea44f?style=for-the-badge&logo=apple" height="50">
   </a>
 </div>
-
-
-A native, minimalist video downloader built with **SwiftUI** by a film director.
-Powered by the new **Chameleon Engine** (V1.4).
-
+*(Compatible with macOS 12.0 Monterey and later / 支持 macOS 12.0 及以上版本)*
+---
+## ✨ Features / 核心特性
+- **🦎 Chameleon Engine (变色龙引擎)**: Automatically switches User-Agent (Safari/Chrome) to bypass 403 Forbidden errors. (V1.4+)
+- **⚡️ Native SwiftUI**: Smooth, lightweight, and energy-efficient. No Electron bloat.
+- **🎥 High Quality Support**: Powered by `yt-dlp`, supports Best Video & Audio quality extraction. (支持解析最高画质)
+- **🤖 AI Adaptive**: Learns the best request strategy for different websites.
+- **📋 Clipboard Monitor**: Auto-detects video links from your clipboard.
+---
+## 🛠 Troubleshooting / 常见问题急救锦囊
+**遇到登录一直转圈、下载失败？请先检查网络环境！**
+**If you encounter login loops or download failures, please check your network first!**
+### 💡 Tip 1: Check VPN Nodes (检查“魔法”质量)
+Most login issues are caused by blocked IPs (e.g., Google blocks specific data center IPs).
+- **Solution**: Switch your VPN node to **Singapore** or **Japan**. Avoid using crowded US nodes.
+- **对策**: 切换 VPN 节点（推荐新加坡或日本），避开万人骑的美国节点。
+### 💡 Tip 2: Enable App Proxy (开启应用代理)
+Ensure CatchBan uses your VPN tunnel.
+- **Solution**: Settings -> Toggle `Proxy` ON -> Enter VPN Port (e.g., 7890).
+- **对策**: 设置 -> 开启【启用代理】-> 填入 VPN 端口号（如 7890）。
+### 💡 Tip 3: Manual Mode & "The Golden Rule" (手动模式黄金法则) ⚠️
+If auto-detection fails, switch to the **Internal Browser**.
+1. **Log in** manually.
+2. **PLAY the video** for 1-2 seconds (Crucial!).
+3. Click **`Catch it`**.
+- **对策**: 切换到内置浏览器 -> 手动登录 -> **务必先播放视频 1-2 秒** -> 再点击右下角抓取按钮。
+---
+## 🚀 Installation Note / 安装说明
+Since this app is not notarized by Apple yet, you might see a warning: *"CatchBan can’t be opened because it is from an unidentified developer."*
+由于没有向 Apple 缴纳保护费（未签名），首次打开可能会提示“无法打开，因为无法验证开发者”。
+**Solution / 解决方法:**
+1. Right-click (or Control-click) the App icon. / **右键点击** App 图标。
+2. Select **Open**. / 选择 **打开**。
+3. Click **Open** in the dialog box. / 在弹窗中点击 **打开** 即可。
+---
+## 💬 Community / 联系我们
+- **GitHub Issues**: Report a Bug <sup>1</sup> [<sup>1</sup>](https://github.com/Banansky-Studio/CatchBan/issues)
+- **QQ Group (香蕉派)**: `879059380`
+- **Email**: Check my GitHub profile.
+---
 <div align="center">
-  📥 <a href="https://github.com/Banansky-Studio/CatchBan/releases/latest">Download V1.4 Beta</a> • 
-  📺 <a href="https://www.bilibili.com/video/BV1YJiLBHEMG/">Watch Demo</a> • 
-  💬 QQ Group: 879059380
+  <p>© 2025-2026 Banansky Studio. All rights reserved.</p>
+  <p><em>Code like a dev, Direct like a pro.</em></p>
 </div>
-
-</div>
-
----
-
-## 🦎 What's New in V1.4 (Chameleon Edition)
-
-**Google/YouTube Login Fixed!**
-To bypass recent anti-crawling updates, V1.4 introduces the **Chameleon Engine**:
-
-- **🕵️‍♂️ Smart Disguise**: Automatically acts as **Safari** on login pages and switches to **Chrome** on video pages.
-- **🧠 Auto-Learning**: Remembers the successful strategy for each website.
-- **⚡️ Native Speed**: Lightweight (<15MB), no Electron, pure SwiftUI.
-
----
-
-## ⚠️ Installation Guide (Read First)
-
-Since this is an indie app (not on the App Store), macOS might flag it as "Damaged". **It is NOT damaged.**
-
-**✅ How to Fix (3 Steps):**
-1. Click **[Cancel]** on the error popup.
-2. Go to **System Settings** -> **Privacy & Security**.
-3. Scroll down and click **[Open Anyway]** for CatchBan.
-
----
-
-## ✨ Features
-
-- **Universal Support**: Download from YouTube, Bilibili, and more via `yt-dlp` core.
-- **High Quality**: Supports 1080P High-Bitrate (4K/8K support coming in V2.0).
-- **Zero Ads**: Clean interface, focused on content.
-- **Privacy**: Cookies are stored locally on your Mac.
-
-## 📸 Screenshots
-
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/7157fd48-51cd-4c57-9fb5-f85c260d32aa" width="100%" style="border-radius: 10px; margin-bottom: 20px;" />
-  
-  <br/>
-  
-  <img src="https://github.com/user-attachments/assets/9c74ce08-fa93-466c-8480-804c1653e4d0" width="100%" style="border-radius: 10px;" />
-</div>
-
----
-
-## 🥧 Community (Banana Pie)
-
-Join **Banansky Studio** for updates, AI prompts, and dev-logs.
-
-- **QQ Group (香蕉派)**: `879059380` (Resources & Beta Test)
-- **Bilibili**: Banansky香蕉斯基 <sup>1</sup> [<sup>4</sup>](https://space.bilibili.com/106338395)
-- **YouTube**: BananskyStudio <sup>2</sup> [<sup>5</sup>](https://youtube.com/@BananskyStudio)
- - **X (Twitter)**: @BananskyStudio <sup>7</sup> [<sup>2</sup>](https://twitter.com/BananskyStudio)
----
-
-## 👨‍💻 About
-
-Built by **Banansky**.
-I am a film director who learned to code with Gemini 3.0.
-
-*Disclaimer: This software is for technical research and personal archiving only.*
