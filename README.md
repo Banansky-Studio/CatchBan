@@ -92,17 +92,18 @@ Since this app is not notarized by Apple yet, you might see a warning: *"CatchBa
 
 ---
 
-## 💬 Community / 联系我们
-- **GitHub Issues**: Report a Bug <sup>1</sup> [<sup>1</sup>](https://github.com/Banansky-Studio/CatchBan/issues)
-- **QQ Group (香蕉派)**: `879059380`
-- **Bilibili**: Banansky香蕉斯基 [<sup>2</sup>](https://space.bilibili.com/106338395) 
-- **YouTube**: @BananskyStudio [<sup>3</sup>](https://www.youtube.com/@BananskyStudio) 
-- **X (Twitter)**: @BananskyStudio [<sup>4</sup>](https://x.com/BananskyStudio)
-- **Email**: Check my GitHub profile.
+🌐 *GitHub* : [<sup>github.com/Banansky-Studio/CatchBan</sup>](https://github.com/Banansky-Studio/CatchBan)
+
+📺 *YouTube* : [<sup>@BananskyStudio</sup>](https://www.youtube.com/@BananskyStudio)
+
+🛸 *Twitter* : [<sup>@BananskyStudio</sup>](https://twitter.com/BananskyStudio)
+
+🤖 *Bilibili* : [<sup>space.bilibili.com/106338395</sup>](https://space.bilibili.com/106338395)
+
+🐧 *QQ Group (香蕉派)*: 879059380
 
 ---
 
-<div align="center">
-  <p>© 2025-2026 Banansky Studio. All rights reserved.</p>
-  <p><em>Code like a dev, Direct like a pro.</em></p>
-</div>
+&copy; 2025-2026 Banansky Studio. All rights reserved.
+
+*Code like a dev, Direct like a pro.*
