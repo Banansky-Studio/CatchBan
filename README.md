@@ -38,7 +38,7 @@
 
 ## 📺 视频教程 (Video Tutorial)
 
-V1.4.1 版本引入了全新的 **"变色龙 (Chameleon)"** 引擎与 **"手动模式"**。
+V1.4+ 版本引入了全新的 **"变色龙 (Chameleon)"** 引擎与 **"手动模式"**。
 强烈建议在使用前花几分钟观看操作演示，以解决登录失败问题。
 
 [![1](https://github.com/user-attachments/assets/1e0fc7ce-9fb4-432a-b21f-08b9071e8d47)](https://www.bilibili.com/video/BV1jRrqBiENP)
