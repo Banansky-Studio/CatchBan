@@ -41,8 +41,7 @@
 V1.4.1 版本引入了全新的 **"变色龙 (Chameleon)"** 引擎与 **"手动模式"**。
 强烈建议在使用前花几分钟观看操作演示，以解决登录失败问题。
 
-[<img alt="小红书封面" src="https://github.com/user-attachments/assets/92b93284-9e1e-4cdd-8ab5-e61e2a94305b" />](https://www.bilibili.com/video/BV1jRrqBiENP)
-
+[![1](https://github.com/user-attachments/assets/1e0fc7ce-9fb4-432a-b21f-08b9071e8d47)](https://www.bilibili.com/video/BV1jRrqBiENP)
 
 > 👆 **Click the image to watch on Bilibili** (点击图片跳转 B 站观看)
 ---
