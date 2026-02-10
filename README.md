@@ -4,91 +4,81 @@
   <h1>CatchBan</h1>
   <p><strong>Code like a dev, Direct like a pro.</strong></p>
   <p>
-    A native macOS video downloader built with SwiftUI & yt-dlp.<br>
-    原生、极简、强大的 macOS 视频下载工具 (变色龙引擎版)
+    A native macOS 4K video downloader built with SwiftUI & yt-dlp.<br>
+    原生、极简、强大的 macOS 4K视频下载工具
   </p>
 
-  <p>
-    <a href="https://github.com/Banansky-Studio/CatchBan/releases">
-      <img src="https://img.shields.io/github/v/release/Banansky-Studio/CatchBan?color=yellow&label=Latest%20Version&logo=apple" alt="Latest Version">
-    </a>
-    <a href="https://github.com/Banansky-Studio/CatchBan/releases">
-      <img src="https://img.shields.io/github/downloads/Banansky-Studio/CatchBan/total.svg?color=orange&label=Downloads" alt="Total Downloads">
-    </a>
-    <img src="https://img.shields.io/badge/macOS-12.0%2B-blue?logo=apple" alt="Platform">
-  </p>
-</div>
-
----
-
-## 📥 Download / 下载
-
-> **Click the button below to download the latest version (.dmg)**
-> **点击下方按钮下载最新版**
-
-<div align="center">
-  <a href="https://github.com/Banansky-Studio/CatchBan/releases/latest/download/CatchBan.dmg">
-    <img src="https://img.shields.io/badge/Download_CatchBan.dmg-Click_Here_🍌-2ea44f?style=for-the-badge&logo=apple" height="50">
+<p align="center">
+  <!-- 1. 最新版本号 (点击跳转到发布页) -->
+  <a href="https://github.com/Banansky-Studio/CatchBan/releases/latest">
+    <img src="https://img.shields.io/github/v/release/Banansky-Studio/CatchBan?style=flat-square&color=F5D300&labelColor=333333&label=Latest" alt="Latest Version">
   </a>
+  <!-- 2. 总下载量 (点击直接开始下载 CatchBan.dmg) -->
+  <a href="https://github.com/Banansky-Studio/CatchBan/releases/latest/download/CatchBan.dmg">
+    <img src="https://img.shields.io/github/downloads/Banansky-Studio/CatchBan/total?style=flat-square&color=fe7d37&labelColor=333333&label=Downloads" alt="Total Downloads">
+  </a>
+  <!-- 3. 平台支持 (灰色背景) -->
+  <img src="https://img.shields.io/badge/macOS-12.0+-007AFF?style=flat-square&labelColor=333333" alt="Platform">
+</p>
 </div>
 
-*(Compatible with macOS 12.0 Monterey and later / 支持 macOS 12.0 及以上版本)*
+<br/>
+
+# 🚀 CatchBan V1.5.0: The "Source Quality" Update
+> **⚠️ CRITICAL NOTICE:** V1.4 and older versions will stop working on **Feb 21, 2026**. Please update to V1.5.0 immediately to maintain access.
+This is a major architectural update focusing on **Video Quality** and **Universal Compatibility**. We have rewritten the core engine to support True 4K downloads and unlocked support for over 1000+ websites.
 
 ---
 
-## 📺 视频教程 (Video Tutorial)
+## ✨ New in V1.5.0 (The Source Quality Update)
 
-V1.4+ 版本引入了全新的 **"变色龙 (Chameleon)"** 引擎与 **"手动模式"**。
-强烈建议在使用前花几分钟观看操作演示，以解决登录失败问题。
+Major architecture upgrades to ensure better compatibility.
 
-[![1](https://github.com/user-attachments/assets/1e0fc7ce-9fb4-432a-b21f-08b9071e8d47)](https://www.bilibili.com/video/BV1jRrqBiENP)
+### 🎥 True 4K Unlocked (真·4K 解锁)
+- **Source Quality:** Supports downloading original 2160p (4K) video streams without downgrading to 1080p.
+- **Strictly Original:** What you see on the web is what you get in the file.
 
-> 👆 **Click the image to watch on Bilibili** (点击图片跳转 B 站观看)
----
+### 🌍 **Universal Support (全能解析覆盖: 1000+ 站点)**
+- **Massive Expansion:** Now powered by the latest engine to support **1000+ video/audio websites**.
+- **Platform Ready:** Perfect support for **YouTube, Bilibili, Vimeo, Twitter/X, Instagram, TikTok**, and more.
 
-## ✨ Features / 核心特性
+### 🍪 Chameleon Engine Upgrade (变色龙引擎升级)
+- **Smart Cookie Handling:** Automatically detects and injects cookies for Member-Only or Age-Restricted videos.
+- **Login Optimization:** Significantly reduces "Sign in to confirm" errors on YouTube/Bilibili.
 
-- **🦎 Chameleon Engine (变色龙引擎)**: Automatically switches User-Agent (Safari/Chrome) to bypass 403 Forbidden errors. (V1.4+)
-- **⚡️ Native SwiftUI**: Smooth, lightweight, and energy-efficient. No Electron bloat.
-- **🎥 High Quality Support**: Powered by `yt-dlp`, supports Best Video & Audio quality extraction. (支持解析最高画质)
-- **🤖 AI Adaptive**: Learns the best request strategy for different websites.
-- **📋 Clipboard Monitor**: Auto-detects video links from your clipboard.
+### 🛡 DASH Protocol Optimization (DASH流协议优化)
+- **Fixed 403 Forbidden:** Rewrote the stream handler to fix issues with `m3u8` segments causing download failures.
+- **Smart Format Selection:** Prioritizes the best compatible codecs (H.264/VP9) to prevent download loops.
 
----
-
-## 🛠 Troubleshooting / 常见问题急救锦囊
-
-**遇到登录一直转圈、下载失败？请先检查网络环境！**
-**If you encounter login loops or download failures, please check your network first!**
-
-### 💡 Tip 1: Check VPN Nodes (检查“魔法”质量)
-Most login issues are caused by blocked IPs (e.g., Google blocks specific data center IPs).
-- **Solution**: Switch your VPN node to **Singapore** or **Japan**. Avoid using crowded US nodes.
-- **对策**: 切换 VPN 节点（推荐新加坡或日本），避开万人骑的美国节点。
-
-### 💡 Tip 2: Enable App Proxy (开启应用代理)
-Ensure CatchBan uses your VPN tunnel.
-- **Solution**: Settings -> Toggle `Proxy` ON -> Enter VPN Port (e.g., 7890).
-- **对策**: 设置 -> 开启【启用代理】-> 填入 VPN 端口号（如 7890）。
-
-### 💡 Tip 3: Manual Mode & "The Golden Rule" (手动模式黄金法则) ⚠️
-If auto-detection fails, switch to the **Internal Browser**.
-1. **Log in** manually.
-2. **PLAY the video** for 1-2 seconds (Crucial!).
-3. Click **`Catch it`**.
-- **对策**: 切换到内置浏览器 -> 手动登录 -> **务必先播放视频 1-2 秒** -> 再点击右下角抓取按钮。
+### 🆔 Identity Reset (一键身份重置)
+- **Self-Fix Tool:** Added an **[ID Card Icon]** on the top-left toolbar.
+- **One-Click:** Instantly clears corrupted cookies and session caches to resolve network errors manually.
 
 ---
 
-## 🚀 Installation Note / 安装说明
+## 🛠 Installation
 
-Since this app is not notarized by Apple yet, you might see a warning: *"CatchBan can’t be opened because it is from an unidentified developer."*
-由于没有向 Apple 缴纳保护费（未签名），首次打开可能会提示“无法打开，因为无法验证开发者”。
+1. Download the latest `.dmg` from **CatchBan.com** </sup> [</sup>](https://catchban.com) (Recommended) or Releases </sup> [</sup>](https://github.com/Banansky-Studio/CatchBan/releases).
+2. Drag `CatchBan.app` to Applications.
+3. **If you see "App is Damaged":**
+   - Open Terminal.
+   - Run: `sudo xattr -rd com.apple.quarantine /Applications/CatchBan.app`
 
-**Solution / 解决方法:**
-1. Right-click (or Control-click) the App icon. / **右键点击** App 图标。
-2. Select **Open**. / 选择 **打开**。
-3. Click **Open** in the dialog box. / 在弹窗中点击 **打开** 即可。
+---
+
+## 🚦 Roadmap
+
+- [x] **V1.5.0 (Current):** 4K Support, Chameleon Engine, DASH Fixes.
+- [ ] **V2.0 "Hunter" (Coming Soon):** 
+    - Resource Sniffer Browser.
+    - Banansky Cyber-Industrial UI Redesign.
+
+---
+
+## ⚖️ Disclaimer
+
+This software is for **technical research and personal archiving only**.
+Please **DO NOT** use it to download copyright-protected paid content (e.g., Netflix, Disney+, etc.). Users are solely responsible for any legal consequences.
 
 ---
 
@@ -104,6 +94,7 @@ Since this app is not notarized by Apple yet, you might see a warning: *"CatchBa
 
 ---
 
-&copy; 2025-2026 Banansky Studio. All rights reserved.
-
-*Code like a dev, Direct like a pro.*
+<div align="center">
+&copy; 2025-2026 Banansky Studio. All rights reserved. <br>
+Code like a dev, Direct like a pro.
+</div>
