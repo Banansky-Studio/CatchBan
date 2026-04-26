@@ -9,7 +9,7 @@ CatchBan 2.0 Beta 是面向视频创作者的 macOS 素材库工作台。
 ## 现在发布
 
 - 版本: `V2.0 Beta`
-- 状态: 公开测试中，免费开放
+- 状态: 公开测试中，完全免费
 - 平台: macOS 12+（Apple Silicon 原生推荐，同时兼容 Intel）
 - 更新时间: 2026 年 4 月
 
@@ -17,17 +17,6 @@ CatchBan 2.0 Beta 是面向视频创作者的 macOS 素材库工作台。
 
 - 最新版本页: [GitHub Releases](https://github.com/Banansky-Studio/CatchBan/releases/latest)
 - 直接下载 DMG: [CatchBan.dmg](https://github.com/Banansky-Studio/CatchBan/releases/latest/download/CatchBan.dmg)
-
-## 产品定位
-
-CatchBan 2.0 Beta 的市场定位是「视频创作者素材库工作台」。
-
-它解决的不是“把文件下下来”这一个动作，而是完整的素材准备链路:
-
-- 采集: 把高价值参考素材快速拉入本地
-- 管理: 在本地库内持续归档、检索、复用
-- 预览: 在工作台内快速检视、逐帧回看与标记
-- 输出: 直接完成高频轻创作处理并回流到库
 
 ## 核心能力全景
 
@@ -100,23 +89,6 @@ CatchBan 2.0 Beta 的市场定位是「视频创作者素材库工作台」。
 首次打开若遇到系统安全提示，请前往：
 
 `系统设置 -> 隐私与安全性 -> 仍要打开`
-
-## 从源码运行（开发者）
-
-```bash
-git clone https://github.com/Banansky-Studio/CatchBan.git
-cd CatchBan
-open CatchBan.xcodeproj
-```
-
-发布前校验脚本：
-
-```bash
-scripts/validate_release_architectures.sh
-scripts/verify_dual_arch_build.sh
-```
-
-完整发布流程见: [RELEASE.md](./RELEASE.md)
 
 ## 反馈与协作
 
