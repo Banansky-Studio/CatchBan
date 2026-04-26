@@ -84,7 +84,7 @@ jobs:
           echo "Resolved body file: ${BODY_FILE}"
 
       - name: Create templated GitHub Release
-        if: ${{ steps.release.outputs.has_body == "true" }}
+        if: steps.release.outputs.has_body == 'true'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.release.outputs.tag }}
@@ -95,7 +95,7 @@ jobs:
           make_latest: ${{ steps.release.outputs.make_latest }}
 
       - name: Create generated GitHub Release
-        if: ${{ steps.release.outputs.has_body != "true" }}
+        if: steps.release.outputs.has_body != 'true'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.release.outputs.tag }}
