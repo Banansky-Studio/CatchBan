@@ -1,0 +1,106 @@
+name: Create Release Page
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag, for example: v1.5.1"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve release metadata
+        id: release
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            TAG="${{ github.event.inputs.tag }}"
+          else
+            TAG="${GITHUB_REF_NAME}"
+          fi
+
+          VERSION="${TAG#v}"
+          RELEASE_DIR=".github/releases"
+          ENV_FILE="${RELEASE_DIR}/${TAG}.env"
+          BODY_FILE="${RELEASE_DIR}/${TAG}.md"
+          RELEASE_NAME=""
+          PRERELEASE="false"
+          MAKE_LATEST="legacy"
+          HAS_BODY="false"
+
+          if [[ -f "${ENV_FILE}" ]]; then
+            set -a
+            # shellcheck disable=SC1090
+            source "${ENV_FILE}"
+            set +a
+          fi
+
+          if [[ -z "${RELEASE_NAME}" ]]; then
+            if [[ "${VERSION}" =~ ^([0-9]+)\.([0-9]+)\.([0-9]+)-beta(\.[0-9]+)?$ ]]; then
+              RELEASE_NAME="CatchBan V${BASH_REMATCH[1]}.${BASH_REMATCH[2]} Beta"
+            elif [[ "${VERSION}" =~ ^([0-9]+)\.([0-9]+)\.([0-9]+)-rc(\.[0-9]+)?$ ]]; then
+              RELEASE_NAME="CatchBan V${BASH_REMATCH[1]}.${BASH_REMATCH[2]} RC"
+            elif [[ "${VERSION}" =~ ^([0-9]+)\.([0-9]+)\.([0-9]+)$ ]]; then
+              RELEASE_NAME="CatchBan V${VERSION}"
+            else
+              RELEASE_NAME="CatchBan ${TAG}"
+            fi
+          fi
+
+          if [[ -f "${BODY_FILE}" ]]; then
+            HAS_BODY="true"
+          fi
+
+          {
+            echo "tag=${TAG}"
+            echo "version=${VERSION}"
+            echo "release_name=${RELEASE_NAME}"
+            echo "body_path=${BODY_FILE}"
+            echo "prerelease=${PRERELEASE}"
+            echo "make_latest=${MAKE_LATEST}"
+            echo "has_body=${HAS_BODY}"
+          } >> "$GITHUB_OUTPUT"
+
+          echo "Resolved tag: ${TAG}"
+          echo "Resolved release name: ${RELEASE_NAME}"
+          echo "Resolved prerelease: ${PRERELEASE}"
+          echo "Resolved make_latest: ${MAKE_LATEST}"
+          echo "Resolved body file: ${BODY_FILE}"
+
+      - name: Create templated GitHub Release
+        if: ${{ steps.release.outputs.has_body == "true" }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.release.outputs.tag }}
+          name: ${{ steps.release.outputs.release_name }}
+          target_commitish: ${{ github.sha }}
+          body_path: ${{ steps.release.outputs.body_path }}
+          prerelease: ${{ steps.release.outputs.prerelease }}
+          make_latest: ${{ steps.release.outputs.make_latest }}
+
+      - name: Create generated GitHub Release
+        if: ${{ steps.release.outputs.has_body != "true" }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.release.outputs.tag }}
+          name: ${{ steps.release.outputs.release_name }}
+          target_commitish: ${{ github.sha }}
+          generate_release_notes: true
+          prerelease: ${{ steps.release.outputs.prerelease }}
+          make_latest: ${{ steps.release.outputs.make_latest }}
