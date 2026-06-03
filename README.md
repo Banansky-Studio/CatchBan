@@ -12,11 +12,8 @@
   <a href="https://github.com/Banansky-Studio/CatchBan/releases/tag/v2.0.2-beta">
     <img src="https://img.shields.io/badge/Latest%20Beta-v2.0.2%20Beta-F5D300?style=flat-square&labelColor=333333" alt="Latest Beta: v2.0.2 Beta">
   </a>
-  <a href="https://github.com/Banansky-Studio/CatchBan/releases/download/v2.0.2-beta/CatchBan.dmg">
-    <img src="https://img.shields.io/badge/Download-CatchBan.dmg-fe7d37?style=flat-square&labelColor=333333" alt="Download CatchBan.dmg">
-  </a>
   <a href="https://github.com/Banansky-Studio/CatchBan/releases">
-    <img src="https://img.shields.io/github/downloads/Banansky-Studio/CatchBan/total?style=flat-square&color=777777&labelColor=333333&label=Downloads" alt="Total Downloads">
+    <img src="https://img.shields.io/github/downloads/Banansky-Studio/CatchBan/total?style=flat-square&color=red&labelColor=333333&label=Downloads" alt="Total Downloads">
   </a>
   <a href="https://catchban.com">
     <img src="https://img.shields.io/badge/CatchBan.com-Visit%20Site-007AFF?style=flat-square&labelColor=333333" alt="CatchBan Website">
