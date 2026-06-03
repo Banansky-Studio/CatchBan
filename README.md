@@ -4,16 +4,19 @@
   <h1>CatchBan</h1>
   <p><strong>捕获灵感，而后掌控。<br>Catch the spark. Command the workflow.</strong></p>
   <p>
-    Native macOS workspace for video references & source assets. Capture, organize, preview & prep footage in one flow.<br>
-    专为创作者打造的视听素材原生 macOS 工作台。一站式完成素材的采集、整理、预览与预处理。
+   A native macOS workspace for video references & source assets. Capture, organize, preview, and prep your footage in one seamless flow.<br>
+    专为创作者打造的视频素材工作台。一站解决素材采集、管理、预览与轻创作工具，轻松实现捕获灵感而后掌控。
   </p>
 
 <p align="center">
-  <a href="https://github.com/Banansky-Studio/CatchBan/releases/latest">
-    <img src="https://img.shields.io/github/v/release/Banansky-Studio/CatchBan?style=flat-square&color=F5D300&labelColor=333333&label=Latest" alt="Latest Version">
+  <a href="https://github.com/Banansky-Studio/CatchBan/releases/tag/v2.0.2-beta">
+    <img src="https://img.shields.io/badge/Latest%20Beta-v2.0.2%20Beta-F5D300?style=flat-square&labelColor=333333" alt="Latest Beta: v2.0.2 Beta">
   </a>
-  <a href="https://github.com/Banansky-Studio/CatchBan/releases/latest/download/CatchBan.dmg">
-    <img src="https://img.shields.io/github/downloads/Banansky-Studio/CatchBan/total?style=flat-square&color=fe7d37&labelColor=333333&label=Downloads" alt="Total Downloads">
+  <a href="https://github.com/Banansky-Studio/CatchBan/releases/download/v2.0.2-beta/CatchBan.dmg">
+    <img src="https://img.shields.io/badge/Download-CatchBan.dmg-fe7d37?style=flat-square&labelColor=333333" alt="Download CatchBan.dmg">
+  </a>
+  <a href="https://github.com/Banansky-Studio/CatchBan/releases">
+    <img src="https://img.shields.io/github/downloads/Banansky-Studio/CatchBan/total?style=flat-square&color=777777&labelColor=333333&label=Downloads" alt="Total Downloads">
   </a>
   <a href="https://catchban.com">
     <img src="https://img.shields.io/badge/CatchBan.com-Visit%20Site-007AFF?style=flat-square&labelColor=333333" alt="CatchBan Website">
