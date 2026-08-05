@@ -2,7 +2,7 @@
   <img src="https://github.com/user-attachments/assets/d42492a2-2e2c-4cd2-98fb-57f89a7324b5" width="120" alt="CatchBan Logo">
 
   <h1>CatchBan</h1>
-  <p><strong>捕获灵感，而后掌控。<br>Catch the spark. Command the workflow.</strong></p>
+  <p><strong>捕获灵感，而后掌控。<br>Catch inspiration, take control.</strong></p>
   <p>
 
 <p align="center">
@@ -155,5 +155,5 @@ Ensure you hold legal rights or proper authorization for all content you capture
 <div align="center">
 &copy; 2025-2026 Banansky Studio. All rights reserved. <br>
 捕获灵感，而后掌控。<br>
-Catch the spark. Command the workflow.
+Catch inspiration, take control.
 </div>
