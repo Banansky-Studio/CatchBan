@@ -9,8 +9,8 @@
   </p>
 
 <p align="center">
-  <a href="https://github.com/Banansky-Studio/CatchBan/releases/tag/v2.0.2-beta">
-    <img src="https://img.shields.io/badge/Latest%20Beta-v2.0.2%20Beta-F5D300?style=flat-square&labelColor=333333" alt="Latest Beta: v2.0.2 Beta">
+  <a href="https://github.com/Banansky-Studio/CatchBan/releases/tag/v2.1.0">
+    <img src="https://img.shields.io/badge/Latest%20Release-v2.1.0%20Official-F5D300?style=flat-square&labelColor=333333" alt="Latest Release: v2.1.0 Official">
   </a>
   <a href="https://github.com/Banansky-Studio/CatchBan/releases">
     <img src="https://img.shields.io/github/downloads/Banansky-Studio/CatchBan/total?style=flat-square&color=red&labelColor=333333&label=Downloads" alt="Total Downloads">
@@ -97,12 +97,16 @@ Built for creators who need a fast local workflow instead of scattered tools and
 ## 📦 Download
 
 - Latest Release: [GitHub Releases](https://github.com/Banansky-Studio/CatchBan/releases/latest)
-- Direct Download: [CatchBan.dmg](https://github.com/Banansky-Studio/CatchBan/releases/latest/download/CatchBan.dmg)
+- Direct Download: [CatchBan.dmg](https://github.com/Banansky-Studio/CatchBan/releases/download/v2.1.0/CatchBan.dmg)
 - Official Website: [catchban.com](https://catchban.com)
 
 ---
 
 ## 🛠 Installation
+
+**System requirements:** macOS 12 or later. Optimized for Apple Silicon Macs; Intel-based Macs are not supported in this release.
+
+**系统要求：** macOS 12 或更高版本。本正式版适用于 Apple Silicon Mac；暂不支持 Intel Mac。
 
 1. Download the latest `.dmg` from the links above.  
    从上方链接下载最新 `.dmg` 安装包。
