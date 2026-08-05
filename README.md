@@ -106,9 +106,9 @@ Assets stored in the workbench can be dragged directly into Premiere Pro, DaVinc
 
 ## 📺 Installation Steps / 安装方式
 
-**System Requirements: macOS 12 or later. Optimized for Macs equipped with Apple M-series chips; Intel-based Macs are not supported for the time being.
+System Requirements: macOS 12 or later. Optimized for Macs equipped with Apple M-series chips; Intel-based Macs are not supported for the time being.
 
-**需要 macOS 12 或更高版本；适用于搭载 Apple M 系列芯片的 Mac；Intel芯片Mac暂不支持。
+需要 macOS 12 或更高版本；适用于搭载 Apple M 系列芯片的 Mac；Intel芯片Mac暂不支持。
 
 1. Open CatchBan.dmg
 
