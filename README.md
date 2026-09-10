@@ -6,8 +6,8 @@
   <p>
 
 <p align="center">
-  <a href="https://github.com/Banansky-Studio/CatchBan/releases/tag/v2.1.3">
-    <img src="https://img.shields.io/badge/Latest%20Release-v2.1.3%20Official-F5D300?style=flat-square&labelColor=333333" alt="Latest Release: v2.1.3 Official">
+  <a href="https://github.com/Banansky-Studio/CatchBan/releases/tag/v2.1.4">
+    <img src="https://img.shields.io/badge/Latest%20Release-v2.1.4%20Official-F5D300?style=flat-square&labelColor=333333" alt="Latest Release: v2.1.4 Official">
   </a>
   <a href="https://github.com/Banansky-Studio/CatchBan/releases">
     <img src="https://img.shields.io/github/downloads/Banansky-Studio/CatchBan/total?style=flat-square&color=red&labelColor=333333&label=Downloads" alt="Total Downloads">
@@ -28,7 +28,7 @@ CatchBan 是专为创作者打造的视听素材工作台。从一键精准采�
 
 ---
 
-## ✨ CATCHBAN V2.1.3 Feature Highlights /  功能亮点
+## ✨ CATCHBAN V2.1.4 Feature Highlights /  功能亮点
 
 ### 1. One-Click Direct Capture of Ultra HD Videos / 超清视频一键直采
 
